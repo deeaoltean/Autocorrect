@@ -1,0 +1,85 @@
+ Project: Homework1 Data Structures
+ Name: OLTEAN ANDREEA-DIANA
+ Group: 314CD
+ 
+    Functions:
+    
+createDictionary	-----> Creates a dictionary that contains N lists. Each list
+                         is initialised with the value NULL. 
+          
+Delete	-----> Deletes the last element of a list, if the number of cells
+               exceeds the N value.
+               
+Remove	-----> Determines the total number of cells and deletes the last cell 
+               of each list, if the total number exceeds the value 2 * N.
+ 
+newElement	-----> Creates a new cell in which the new information will be 
+                   stored.
+                   
+addBefore	-----> Changes the links of the cells so that the new element is
+                 added before a specific one.
+               
+addAfter	-----> Changes the links of the cells so that the new element is
+                 added after the last element of the list.
+                 
+sameElement	-----> Changes the frequency of the element and places it in the
+                   correct order into the list.
+                   
+checkLast	-----> Places the new element in the correct place, concerning 
+                 frequency, value and key in comparison with the last 
+                 element, only if it was not added before.
+                 
+ListIndex	-----> Determines the index of a list based on a given key.The 
+                 remainder of the sum of ASCII values of all characters 
+                 of the key divided by the total number of lists.
+              
+addElement	-----> Adds a new element to the list, placing it in the right
+                   place. The elements shold be ordered descending by 
+                   frequency and if two elements have the same frequency,
+                   they should be sorted alfabetically by value and 
+                   then by key. If two elements match, the new frequency 
+                   will be added. Each element will be added after checking
+                   the efficency conditions of the dictionary.
+                 
+removeElement	-----> Deletes an element with a given key and value from the
+                     dictionary.
+
+printDictionary	----->  Prints the elements of a dictionary.
+
+sort	-----> If the frequency of the element was changed and it no longer
+             respects the sorting rule, it will be removed and added in the
+             correct place.
+             
+get	-----> Creates a doubly linked list that contains the elements with a 
+           specific key. The frequency of each element is increased by one
+           and the cells will be sorted accordind to the sorting rule in 
+           the dictionary. Each element will be removed and added to the 
+           right place in the dictionary.
+           
+printValue	-----> Prints the elements with a specific value from the 
+                   dictionary.
+                   
+printFrequency	-----> Prints the elements with a specific frequency from
+                       the dictionary.
+
+unionValues	-----> Creates a doubly linked list that contains the elements with
+                   a specific value in the dictionary.   
+                   
+unionMaxFrequencies	-----> Creates a doubly linked list that contains the 
+                           elements with the maximum frequency of each list.
+                           The maximum frequency is located on the first 
+                           position of each list.
+                           
+reverseLists -----> Creates a new dictionary that has the lists reversed.
+
+printList -----> Prints the elements of a specific list.
+
+freeList -----> Frees the memory of a list.
+
+freeDictionary -----> Frees the memory of a dictionary.             
+ 
+
+
+                 
+            
+
